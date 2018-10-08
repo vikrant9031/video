@@ -1,0 +1,249 @@
+*{
+	margin:0px;
+}
+
+#main{
+		display: grid;
+	grid-template-columns: 340px 350px 340px ;
+	grid-template-rows: 350px 350px 350px  ;
+	grid-gap: 80px;
+	margin-left: 250px;
+	position: absolute;
+	top: 80px;
+}
+#one{
+	border-radius: 10px;
+	justify-content: space-around;
+	box-shadow: 0px 6px 5px 6px maroon;
+	position: absolute;
+	margin-left: 200px;
+}
+#one embed{
+	width:340px;
+    border-radius: 10px;
+	height:300px;
+}
+#one h3{
+	position:absolute;
+	margin-left: 50px;
+	margin-left: 500px;
+	top:20px;
+}
+#three{
+	border-radius: 10px;
+	justify-content: space-around;
+	box-shadow: 0px 6px 5px 6px maroon;
+	position: absolute;
+	margin-left: 200px;
+	top: 400px;
+}
+#three embed{
+	width:340px;
+    border-radius: 10px;
+	height:300px;
+}
+#three h3{
+	position:absolute;
+	margin-left: 50px;
+	margin-left: 500px;
+	top:5px;
+}
+#four{
+	border-radius: 10px;
+	justify-content: space-around;
+	box-shadow: 0px 6px 5px 6px maroon;
+	position: absolute;
+	margin-left: 200px;
+	top: 750px;
+}
+#four embed{
+	width:340px;
+    border-radius: 10px;
+	height:300px;
+}
+#four h3{
+	position:absolute;
+	margin-left: 50px;
+	margin-left: 500px;
+	top:5px;
+	width:300px;
+}
+#five{
+	border-radius: 10px;
+	justify-content: space-around;
+	box-shadow: 0px 6px 5px 6px maroon;
+	position: absolute;
+	margin-left: 200px;
+	top: 1100px;
+}
+#five embed{
+	width:340px;
+    border-radius: 10px;
+	height:300px;
+}
+#five h3{
+	position:absolute;
+	margin-left: 50px;
+	margin-left: 500px;
+	top:5px;
+	width:300px;
+}
+#six{
+	border-radius: 10px;
+	justify-content: space-around;
+	box-shadow: 0px 6px 5px 6px maroon;
+	position: absolute;
+	margin-left: 200px;
+	top: 1450px;
+}
+#six embed{
+	width:340px;
+    border-radius: 10px;
+	height:300px;
+}
+#six h3{
+	position:absolute;
+	margin-left: 50px;
+	margin-left: 500px;
+top:5px;
+	width:300px;
+}
+#seven{
+	border-radius: 10px;
+	justify-content: space-around;
+	box-shadow: 0px 6px 5px 6px maroon;
+	height: 300px;
+	position: absolute;
+	margin-left: 200px;
+	top: 1800px;
+}
+#seven embed{
+	width:350px;
+    border-radius: 10px;
+	height:300px;
+}
+#seven h3{
+	position:absolute;
+	margin-left: 50px;
+	margin-left: 500px;
+	top:5px;
+	width:300px;
+}
+#eight{
+	border-radius: 10px;
+	justify-content: space-around;
+	box-shadow: 0px 6px 5px 6px maroon;
+	height: 300px;
+	position: absolute;
+	margin-left: 200px;
+	top: 2200px;
+}
+#eight embed{
+	width:340px;
+    border-radius: 10px;
+	height:300px;
+}
+#eight h3{
+	position:absolute;
+	margin-left: 50px;
+	margin-left: 500px;
+	top:5px;
+	width:300px;
+}
+#top{
+	position: absolute;
+	margin-left: 650px;
+}
+ #one marquee{
+ 	width: 300px;
+ }
+ #three marquee{
+ 	width:300px;
+ }
+ body{
+ 	
+   background-image: url(farm-wallpaper-6.jpg);
+   background-size: cover;
+   height: 100%;
+   background-origin: center;
+}
+h1:hover {
+	font-size: 35px;
+	transition-duration: 2000ms;
+	color: orange;
+	transition-timing-function: ease-in-out;
+}
+#pop{
+	width:15%;
+	height:100%;
+	background-color: #001f3f;
+	box-shadow: 6px 6px 6px 6px black;
+	opacity: 0.95;
+	border-radius: 20px;
+
+
+}
+h2{
+	position: absolute;;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family:'Rouge Script', cursive;
+	color:#ffff;
+}
+#button{
+	width:90px;
+	height: 35px;
+	position: absolute;
+	top:10px;
+	left:300px;
+	background-color: yellow;
+	border-radius: 10px;
+	text-align: center;
+	font-family:'Rouge Script', cursive;
+
+}
+
+#pop1{
+	
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	width: 150px;
+	color:white;
+	
+	
+}
+span{
+	height: 300px;
+
+}
+#button:hover{
+	cursor: pointer;
+	width:150px;
+	transition-timing-function: ease-in-out;
+	transition-duration: 500ms;
+}
+#textbox{
+	border-radius: 8px;
+	height:50px;
+}
+@media screen and (max-width: 992px) {
+  #pop1 {
+    width: 200px; float: left;
+  }
+  #textbox {
+    width: 20px; 
+    margin-left: -70px;
+  }
+    h2 {
+    width: 20px; 
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  #one{
+  	width:50px;
+  	left: 00px;
+  	
+  }
+}
+
